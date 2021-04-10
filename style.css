@@ -1,0 +1,330 @@
+@charset "UTF-8";
+body {
+  background-color: #f6f6f6;
+  font-family: Verdana, Arial, Helvetica, "meirio", "メイリオ", "Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+  margin: 0;
+  color: #515151;
+  border-top: 8px solid #6cc6c4;
+}
+
+header {
+  width: 900px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+header .header_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header_r {
+  margin: 0 0 0 auto;
+  line-height: 10px;
+}
+
+header .header_r .descripsion {
+  font-size: 10px;
+}
+
+header .header_r .tel {
+  font-size: 25px;
+  font-weight: normal;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+header .header_r .time {
+  font-size: 10px;
+  padding: 10px 20px;
+  border: 1px solid #dcdcdc;
+  text-align: center;
+}
+
+header .header_r .time span {
+  color: red;
+}
+
+header nav {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+header nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+header nav ul li {
+  width: 20%;
+  text-align: center;
+}
+
+header nav ul a {
+  width: 100%;
+  height: 30px;
+  color: white;
+  text-decoration: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b2ebea), to(#6cc6c4));
+  background: linear-gradient(to bottom, #b2ebea, #6cc6c4);
+  border: 1px solid #6cc6c4;
+  padding: 17px 0 18px;
+  display: inline-block;
+  font-size: 0;
+}
+
+header nav ul a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#6cc6c4), to(#b2ebea));
+  background: linear-gradient(to bottom, #6cc6c4, #b2ebea);
+  color: #d7f8f8;
+}
+
+header nav ul a .titleja {
+  width: 100%;
+  display: inline-block;
+  font-size: 14px;
+}
+
+header nav ul a .titlee {
+  width: 100%;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+header nav ul a.first {
+  border-radius: 5px 0 0 5px;
+}
+
+header nav ul a.last {
+  border-radius: 0 5px 5px 0;
+}
+
+.contents {
+  margin-top: 20px;
+  width: 900px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto;
+}
+
+.contents .main_menu {
+  margin-right: 20px;
+  width: 40%;
+}
+
+.contents .main_menu .m {
+  width: 100%;
+  height: 260px;
+}
+
+.contents .main_menu .m ul {
+  margin-top: 0;
+  padding-left: 0;
+  color: normal;
+  border: 1px solid #6cc6c4;
+  border-radius: 5px 5px 0 0;
+  line-height: 3;
+  list-style-position: inside;
+  background-color: #fff;
+}
+
+.contents .main_menu .m ul h2.menu_title {
+  margin: 0;
+  padding-left: 10px;
+  font-size: 16px;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b2ebea), to(#6cc6c4));
+  background: linear-gradient(to bottom, #b2ebea, #6cc6c4);
+}
+
+.contents .main_menu .m li {
+  margin: 0 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #6cc6c4;
+  position: relative;
+  padding: 0px 0px 0px 1em;
+  list-style: none;
+}
+
+.contents .main_menu .m li:last-child {
+  margin-bottom: 20px;
+}
+
+.contents .main_menu .m li:before {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #6cc6c4;
+  content: "";
+}
+
+.contents .main_menu .m li a {
+  display: block;
+  text-decoration: none;
+  color: #515151;
+}
+
+.contents .main_menu .m li a:hover {
+  color: #6cc6c4;
+}
+
+.contents .main_menu .m.list2 a:hover {
+  color: #a9dd75;
+}
+
+.contents .mainmenu_r {
+  width: auto;
+}
+
+.contents .mainmenu_r .mainimage img {
+  width: 100%;
+}
+
+.contents .mainmenu_r .inner {
+  width: auto;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.contents .mainmenu_r .inner h2.menu_titler {
+  font-size: 16px;
+  margin: 0 0 15px 0;
+}
+
+.contents .mainmenu_r .inner h2.menu_titler span {
+  display: block;
+  height: 50px;
+  border-bottom: 3px solid #6cc6c4;
+  line-height: 50px;
+}
+
+.contents .mainmenu_r .inner dl {
+  width: auto;
+  padding: 0 10px 10px 10px;
+  margin-top: 0;
+}
+
+.contents .mainmenu_r .inner dl .kizi {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 10px;
+}
+
+.contents .mainmenu_r .inner dl .kizi dt {
+  width: 20%;
+  padding: 10px 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.contents .mainmenu_r .inner dl .kizi dd {
+  width: 80%;
+  margin-left: 0;
+  padding: 10px 0 0 0;
+  font-size: 13px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer {
+  width: 900px;
+  height: 80px;
+  margin: 20px auto;
+  border-bottom: 3px solid #6cc6c4;
+}
+
+footer ul {
+  width: 100%;
+  height: 30px;
+  color: white;
+  background-color: #6cc6c4;
+  border-radius: 5px;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+footer ul li {
+  font-size: 13px;
+  padding: 0 0 0 25px;
+}
+
+footer ul li:before {
+  content: "";
+  /* 空の要素作成 */
+  width: 8px;
+  /* 幅指定 */
+  height: 8px;
+  /* 高さ指定 */
+  display: inline-block;
+  /* インラインブロックにする */
+  border-radius: 50%;
+  /* 要素を丸くする */
+  background-color: #6cc6c4;
+  border: 2px solid #fff;
+  position: relative;
+  /* 位置調整 */
+  top: 1px;
+  /* 位置調整 */
+  margin-right: 10px;
+  /* 余白指定 */
+}
+
+footer ul a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul a:hover {
+  border-bottom: 1px solid white;
+}
+
+footer p.address {
+  width: 100%;
+  text-align: right;
+  font-size: 13px;
+}
+
+footer p.copy {
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 13px;
+}
+/*# sourceMappingURL=style.css.map */
