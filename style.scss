@@ -234,6 +234,7 @@ header {
           padding-bottom: 10px;
 
           dt {
+            box-sizing: border-box;
             width: 20%;
             padding: 10px 0;
             font-size: 13px;
@@ -241,9 +242,10 @@ header {
           }
 
           dd {
+            box-sizing: border-box;
             width: 80%;
             margin-left: 0;
-            padding: 10px 0 0 0;
+            padding: 10px 10px 0 30px;
             font-size: 13px;
             justify-content: flex-end;
           }

@@ -241,6 +241,8 @@ header nav ul a.last {
 }
 
 .contents .mainmenu_r .inner dl .kizi dt {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 20%;
   padding: 10px 0;
   font-size: 13px;
@@ -248,9 +250,11 @@ header nav ul a.last {
 }
 
 .contents .mainmenu_r .inner dl .kizi dd {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 80%;
   margin-left: 0;
-  padding: 10px 0 0 0;
+  padding: 10px 10px 0 30px;
   font-size: 13px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
